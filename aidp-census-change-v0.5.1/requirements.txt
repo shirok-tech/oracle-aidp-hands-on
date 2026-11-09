@@ -1,0 +1,12 @@
+# Python 3.11: 記事の構成。AIDPへの一括導入は配布版では未確認。
+# PySpark / aidputils / IPythonはAIDPランタイムを使用。
+numpy==1.26.4
+pandas==2.2.3
+openpyxl==3.1.5
+matplotlib==3.10.1
+scipy==1.13.1
+scikit-learn==1.5.2
+joblib==1.4.2
+threadpoolctl==3.5.0
+oci==2.185.2
+cryptography==50.0.2
