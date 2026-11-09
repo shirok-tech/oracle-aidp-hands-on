@@ -6,13 +6,13 @@ Oracle AI Data Platform（AIDP）のQiita記事で使用するNotebookと実行�
 
 東京都の市区町村の変化を比較し、K-meansで分類して生成AIで説明します。入力は62市区町村、比較・機械学習は町田市の境域差を確認して除外した61市区町村です。
 
-配布版は **v0.5.1** です。**[実行セットZIPをダウンロード](https://github.com/shirok-tech/oracle-aidp-hands-on/releases/download/v0.5.1/aidp-census-change-v0.5.1.zip)** して展開し、最初にREADMEを読んでください。自動生成の「Source code (zip)」とは別のファイルです。
+配布版は **v1.0** です。**[実行セットZIPをダウンロード](https://github.com/shirok-tech/oracle-aidp-hands-on/releases/download/v1.0/aidp-census-change-v1.0.zip)** して展開し、最初にREADMEを読んでください。自動生成の「Source code (zip)」とは別のファイルです。
 
-[Releaseページ](https://github.com/shirok-tech/oracle-aidp-hands-on/releases/tag/v0.5.1) ／ [ZIPのSHA-256](https://github.com/shirok-tech/oracle-aidp-hands-on/releases/download/v0.5.1/aidp-census-change-v0.5.1.zip.sha256)
+[Releaseページ](https://github.com/shirok-tech/oracle-aidp-hands-on/releases/tag/v1.0) ／ [ZIPのSHA-256](https://github.com/shirok-tech/oracle-aidp-hands-on/releases/download/v1.0/aidp-census-change-v1.0.zip.sha256)
 
-- [実行手順・前提環境・e-Stat入手先](aidp-census-change-v0.5.1/README.md)
-- [Notebookとライブラリ定義](aidp-census-change-v0.5.1/)
-- [配布ファイルのSHA-256](aidp-census-change-v0.5.1/SHA256SUMS.txt)
+- [実行手順・前提環境・e-Stat入手先](aidp-census-change-v1.0/README.md)
+- [Notebookとライブラリ定義](aidp-census-change-v1.0/)
+- [配布ファイルのSHA-256](aidp-census-change-v1.0/SHA256SUMS.txt)
 
 実行セットにはnb01〜nb04、確認用nb00、日本語README、requirements、年別読込定義、参照用ソース、ファイル一覧とSHA-256を含みます。原本Excelは同梱していません。READMEに記載したe-Statの表を別途入手してください。
 
