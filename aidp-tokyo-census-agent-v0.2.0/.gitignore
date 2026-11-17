@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.DS_Store
+__MACOSX/
+.env
+.env.*
+.oci/
+*.pem
+*.key
+*.p12
+*.pfx
+*.log
+dist/
+local/

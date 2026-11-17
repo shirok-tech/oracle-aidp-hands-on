@@ -29,3 +29,14 @@ Oracle AI Data Platform（AIDP）のQiita記事で使用するNotebookと実行�
 ## データの出典
 
 総務省統計局「令和2年国勢調査」「令和7年国勢調査」（e-Stat）の人口等基本集計・原数値を加工して分析します。各表へのリンクと取扱いは実行セットのREADMEを参照してください。クラスタ分類と生成AIの説明案は、公式統計機関の分類・見解ではありません。
+
+## AIDP第3回：AI Computeで地域分析AIエージェントを作成する
+
+第2回で比較・分類した結果を使い、AI ComputeのAgentへ進みます。東京都61市区町村の2020年・2025年の比較結果を、Agentと5つの事前定義SQLツールで説明する実行セットです。Notebook、入力データ、SQL、Agent／Skillの設定文、設定・確認手順を含みます。
+
+- [第3回の実行手順・README](aidp-tokyo-census-agent-v0.2.0/README.md)
+- [第3回の実行セット・ファイル一覧](aidp-tokyo-census-agent-v0.2.0/)
+- [第3回の実行セット v0.2.0（Release）](https://github.com/shirok-tech/oracle-aidp-hands-on/releases/tag/part3-v0.2.0)
+- [第3回の実行セットZIPをダウンロード](https://github.com/shirok-tech/oracle-aidp-hands-on/releases/download/part3-v0.2.0/oracle-aidp-tokyo-census-agent-v0.2.0.zip)
+
+実行セット **v0.2.0** はブログ **v0.4** に対応し、版番号は別に管理しています。まず第3回のREADMEを確認してください。配布ZIPは、第3回だけを収録した添付ファイルです。GitHubが自動生成する「Source code (zip)」はリポジトリ全体のアーカイブです。

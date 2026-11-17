@@ -1,0 +1,492 @@
+{
+  "01_list_areas": [
+    {
+      "area_code": 13101,
+      "area_name": "千代田区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13102,
+      "area_name": "中央区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13103,
+      "area_name": "港区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13104,
+      "area_name": "新宿区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13105,
+      "area_name": "文京区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13106,
+      "area_name": "台東区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13107,
+      "area_name": "墨田区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13108,
+      "area_name": "江東区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13109,
+      "area_name": "品川区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13110,
+      "area_name": "目黒区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13111,
+      "area_name": "大田区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13112,
+      "area_name": "世田谷区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13113,
+      "area_name": "渋谷区",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13114,
+      "area_name": "中野区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13115,
+      "area_name": "杉並区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13116,
+      "area_name": "豊島区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13117,
+      "area_name": "北区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13118,
+      "area_name": "荒川区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13119,
+      "area_name": "板橋区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13120,
+      "area_name": "練馬区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13121,
+      "area_name": "足立区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13122,
+      "area_name": "葛飾区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13123,
+      "area_name": "江戸川区",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13201,
+      "area_name": "八王子市",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13202,
+      "area_name": "立川市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13203,
+      "area_name": "武蔵野市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13204,
+      "area_name": "三鷹市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13205,
+      "area_name": "青梅市",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13206,
+      "area_name": "府中市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13207,
+      "area_name": "昭島市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13208,
+      "area_name": "調布市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13210,
+      "area_name": "小金井市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13211,
+      "area_name": "小平市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13212,
+      "area_name": "日野市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13213,
+      "area_name": "東村山市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13214,
+      "area_name": "国分寺市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13215,
+      "area_name": "国立市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13218,
+      "area_name": "福生市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13219,
+      "area_name": "狛江市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13220,
+      "area_name": "東大和市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13221,
+      "area_name": "清瀬市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13222,
+      "area_name": "東久留米市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13223,
+      "area_name": "武蔵村山市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13224,
+      "area_name": "多摩市",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13225,
+      "area_name": "稲城市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13227,
+      "area_name": "羽村市",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13228,
+      "area_name": "あきる野市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13229,
+      "area_name": "西東京市",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13303,
+      "area_name": "瑞穂町",
+      "cluster_id": 1
+    },
+    {
+      "area_code": 13305,
+      "area_name": "日の出町",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13307,
+      "area_name": "檜原村",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13308,
+      "area_name": "奥多摩町",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13361,
+      "area_name": "大島町",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13362,
+      "area_name": "利島村",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13363,
+      "area_name": "新島村",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13364,
+      "area_name": "神津島村",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13381,
+      "area_name": "三宅村",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13382,
+      "area_name": "御蔵島村",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13401,
+      "area_name": "八丈町",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13402,
+      "area_name": "青ヶ島村",
+      "cluster_id": 0
+    },
+    {
+      "area_code": 13421,
+      "area_name": "小笠原村",
+      "cluster_id": 0
+    }
+  ],
+  "02_get_area_metrics": [
+    {
+      "area_code": 13201,
+      "area_name": "八王子市",
+      "cluster_id": 0,
+      "population_2020": 579355,
+      "population_2025": 574428,
+      "population_growth_pct": -0.85,
+      "single_households_pct_2020": 41.53,
+      "single_households_pct_2025": 45.06,
+      "single_share_change_pp": 3.54,
+      "age_65plus_share_known_pct_2020": 27.35,
+      "age_65plus_share_known_pct_2025": 30.29,
+      "elderly_share_change_pp": 2.94,
+      "age_unknown_pct_2020": 3.12,
+      "age_unknown_pct_2025": 14.52,
+      "age_unknown_change_pp": 11.39,
+      "comparison_run_id": "compare61_20261020_01",
+      "ai_run_id": "change_ml_20261020_01"
+    }
+  ],
+  "03_rank_population_growth": [
+    {
+      "area_code": 13106,
+      "area_name": "台東区",
+      "cluster_id": 1,
+      "population_2020": 211444,
+      "population_2025": 228046,
+      "population_growth_pct": 7.85,
+      "comparison_run_id": "compare61_20261020_01"
+    },
+    {
+      "area_code": 13102,
+      "area_name": "中央区",
+      "cluster_id": 1,
+      "population_2020": 169179,
+      "population_2025": 181841,
+      "population_growth_pct": 7.48,
+      "comparison_run_id": "compare61_20261020_01"
+    },
+    {
+      "area_code": 13108,
+      "area_name": "江東区",
+      "cluster_id": 1,
+      "population_2020": 524310,
+      "population_2025": 553502,
+      "population_growth_pct": 5.57,
+      "comparison_run_id": "compare61_20261020_01"
+    },
+    {
+      "area_code": 13107,
+      "area_name": "墨田区",
+      "cluster_id": 1,
+      "population_2020": 272085,
+      "population_2025": 285038,
+      "population_growth_pct": 4.76,
+      "comparison_run_id": "compare61_20261020_01"
+    },
+    {
+      "area_code": 13103,
+      "area_name": "港区",
+      "cluster_id": 1,
+      "population_2020": 260486,
+      "population_2025": 272478,
+      "population_growth_pct": 4.6,
+      "comparison_run_id": "compare61_20261020_01"
+    }
+  ],
+  "04_find_similar_areas": [
+    {
+      "source_area_code": 13201,
+      "source_area_name": "八王子市",
+      "neighbor_rank": 1,
+      "neighbor_area_code": 13227,
+      "neighbor_area_name": "羽村市",
+      "neighbor_cluster_id": 0,
+      "distance_standardized": 0.506392,
+      "population_growth_pct": -1.63,
+      "single_share_change_pp": 3.02,
+      "elderly_share_change_pp": 2.38,
+      "age_unknown_pct_2020": 0.4,
+      "age_unknown_pct_2025": 9.97,
+      "age_unknown_change_pp": 9.57,
+      "comparison_run_id": "compare61_20261020_01",
+      "ai_run_id": "change_ml_20261020_01"
+    },
+    {
+      "source_area_code": 13201,
+      "source_area_name": "八王子市",
+      "neighbor_rank": 2,
+      "neighbor_area_code": 13113,
+      "neighbor_area_name": "渋谷区",
+      "neighbor_cluster_id": 0,
+      "distance_standardized": 0.922586,
+      "population_growth_pct": -2.07,
+      "single_share_change_pp": 2.98,
+      "elderly_share_change_pp": 1.76,
+      "age_unknown_pct_2020": 10.41,
+      "age_unknown_pct_2025": 23.61,
+      "age_unknown_change_pp": 13.2,
+      "comparison_run_id": "compare61_20261020_01",
+      "ai_run_id": "change_ml_20261020_01"
+    },
+    {
+      "source_area_code": 13201,
+      "source_area_name": "八王子市",
+      "neighbor_rank": 3,
+      "neighbor_area_code": 13305,
+      "neighbor_area_name": "日の出町",
+      "neighbor_cluster_id": 0,
+      "distance_standardized": 1.052425,
+      "population_growth_pct": -5.19,
+      "single_share_change_pp": 4.27,
+      "elderly_share_change_pp": 2.41,
+      "age_unknown_pct_2020": 0.53,
+      "age_unknown_pct_2025": 5.3,
+      "age_unknown_change_pp": 4.77,
+      "comparison_run_id": "compare61_20261020_01",
+      "ai_run_id": "change_ml_20261020_01"
+    },
+    {
+      "source_area_code": 13201,
+      "source_area_name": "八王子市",
+      "neighbor_rank": 4,
+      "neighbor_area_code": 13205,
+      "neighbor_area_name": "青梅市",
+      "neighbor_cluster_id": 0,
+      "distance_standardized": 1.09624,
+      "population_growth_pct": -2.81,
+      "single_share_change_pp": 4.4,
+      "elderly_share_change_pp": 1.66,
+      "age_unknown_pct_2020": 0.43,
+      "age_unknown_pct_2025": 1.01,
+      "age_unknown_change_pp": 0.57,
+      "comparison_run_id": "compare61_20261020_01",
+      "ai_run_id": "change_ml_20261020_01"
+    },
+    {
+      "source_area_code": 13201,
+      "source_area_name": "八王子市",
+      "neighbor_rank": 5,
+      "neighbor_area_code": 13224,
+      "neighbor_area_name": "多摩市",
+      "neighbor_cluster_id": 0,
+      "distance_standardized": 1.562461,
+      "population_growth_pct": -3.66,
+      "single_share_change_pp": 2.44,
+      "elderly_share_change_pp": 1.06,
+      "age_unknown_pct_2020": 0.13,
+      "age_unknown_pct_2025": 0.02,
+      "age_unknown_change_pp": -0.11,
+      "comparison_run_id": "compare61_20261020_01",
+      "ai_run_id": "change_ml_20261020_01"
+    }
+  ],
+  "05_get_cluster_summary": [
+    {
+      "cluster_id": 0,
+      "member_count": 17,
+      "mean_population_growth_pct": -6.93,
+      "mean_single_share_change_pp": 3.29,
+      "mean_elderly_share_change_pp": 2.1,
+      "age_unknown_change_available_count": 11,
+      "age_unknown_change_null_count": 6,
+      "mean_age_unknown_change_pp": 4.34,
+      "max_abs_age_unknown_change_pp": 13.2,
+      "comparison_run_id": "compare61_20261020_01",
+      "ai_run_id": "change_ml_20261020_01"
+    },
+    {
+      "cluster_id": 1,
+      "member_count": 44,
+      "mean_population_growth_pct": 1.38,
+      "mean_single_share_change_pp": 2.45,
+      "mean_elderly_share_change_pp": -0.0,
+      "age_unknown_change_available_count": 44,
+      "age_unknown_change_null_count": 0,
+      "mean_age_unknown_change_pp": 0.22,
+      "max_abs_age_unknown_change_pp": 4.08,
+      "comparison_run_id": "compare61_20261020_01",
+      "ai_run_id": "change_ml_20261020_01"
+    }
+  ]
+}

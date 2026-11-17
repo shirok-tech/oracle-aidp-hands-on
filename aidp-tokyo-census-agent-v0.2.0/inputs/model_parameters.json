@@ -1,0 +1,53 @@
+{
+  "algorithm": "lloyd",
+  "candidate_seeds": [
+    42,
+    7,
+    21
+  ],
+  "cluster_centers_original_units": [
+    [
+      -6.932483537549054,
+      3.2934483003020008,
+      2.0966013265275736
+    ],
+    [
+      1.3774035585145512,
+      2.453249248420774,
+      -0.0019424956515954328
+    ]
+  ],
+  "cluster_centers_standardized": [
+    [
+      -1.25370048585954,
+      0.30930716940733166,
+      1.0772523554003979
+    ],
+    [
+      0.48438427862754957,
+      -0.11950504272556046,
+      -0.41621113731379034
+    ]
+  ],
+  "features": [
+    "population_growth_pct",
+    "single_share_change_pp",
+    "elderly_share_change_pp"
+  ],
+  "final_seed": 42,
+  "max_iter": 300,
+  "n_init": 20,
+  "scaler_mean": [
+    -0.9384666157982569,
+    2.6874030825516084,
+    0.5828975859393208
+  ],
+  "scaler_scale": [
+    4.781059742224862,
+    1.9593636284333316,
+    1.4051524074186248
+  ],
+  "selected_k": 2,
+  "selection": "Maximum mean silhouette among candidates where all seeds have minimum cluster size >=2; tie at 12 decimals chooses lower k",
+  "tol": 0.0001
+}

@@ -1,0 +1,389 @@
+{
+  "age_unknown_context_definition": "Year means use available values in each year; change means use paired available values only. NULL is not treated as zero. Different available subsets can make the paired mean change differ from the difference of year means.",
+  "aggregation": "unweighted municipality mean",
+  "ai_run_id": "change_ml_20261020_01",
+  "clusters": [
+    {
+      "age_unknown": {
+        "change": {
+          "available_count": 11,
+          "max_abs_pp": 13.2,
+          "mean_pp": 4.34,
+          "null_count": 6
+        },
+        "year_2020": {
+          "available_count": 11,
+          "max_pct": 10.41,
+          "mean_pct": 1.46,
+          "null_count": 6
+        },
+        "year_2025": {
+          "available_count": 13,
+          "max_pct": 23.61,
+          "mean_pct": 5.1,
+          "null_count": 4
+        }
+      },
+      "cluster_id": 0,
+      "member_count": 17,
+      "members": [
+        {
+          "area_code": "13113",
+          "area_name": "渋谷区"
+        },
+        {
+          "area_code": "13201",
+          "area_name": "八王子市"
+        },
+        {
+          "area_code": "13205",
+          "area_name": "青梅市"
+        },
+        {
+          "area_code": "13224",
+          "area_name": "多摩市"
+        },
+        {
+          "area_code": "13227",
+          "area_name": "羽村市"
+        },
+        {
+          "area_code": "13305",
+          "area_name": "日の出町"
+        },
+        {
+          "area_code": "13307",
+          "area_name": "檜原村"
+        },
+        {
+          "area_code": "13308",
+          "area_name": "奥多摩町"
+        },
+        {
+          "area_code": "13361",
+          "area_name": "大島町"
+        },
+        {
+          "area_code": "13362",
+          "area_name": "利島村"
+        },
+        {
+          "area_code": "13363",
+          "area_name": "新島村"
+        },
+        {
+          "area_code": "13364",
+          "area_name": "神津島村"
+        },
+        {
+          "area_code": "13381",
+          "area_name": "三宅村"
+        },
+        {
+          "area_code": "13382",
+          "area_name": "御蔵島村"
+        },
+        {
+          "area_code": "13401",
+          "area_name": "八丈町"
+        },
+        {
+          "area_code": "13402",
+          "area_name": "青ヶ島村"
+        },
+        {
+          "area_code": "13421",
+          "area_name": "小笠原村"
+        }
+      ],
+      "metrics": {
+        "elderly_share_change_pp": {
+          "mean": 2.1,
+          "period": "2020-2025",
+          "unit": "percentage_points"
+        },
+        "population_growth_pct": {
+          "mean": -6.93,
+          "period": "2020-2025",
+          "unit": "percent"
+        },
+        "single_share_change_pp": {
+          "mean": 3.29,
+          "period": "2020-2025",
+          "unit": "percentage_points"
+        }
+      }
+    },
+    {
+      "age_unknown": {
+        "change": {
+          "available_count": 44,
+          "max_abs_pp": 4.08,
+          "mean_pp": 0.22,
+          "null_count": 0
+        },
+        "year_2020": {
+          "available_count": 44,
+          "max_pct": 9.56,
+          "mean_pct": 2.7,
+          "null_count": 0
+        },
+        "year_2025": {
+          "available_count": 44,
+          "max_pct": 9.63,
+          "mean_pct": 2.91,
+          "null_count": 0
+        }
+      },
+      "cluster_id": 1,
+      "member_count": 44,
+      "members": [
+        {
+          "area_code": "13101",
+          "area_name": "千代田区"
+        },
+        {
+          "area_code": "13102",
+          "area_name": "中央区"
+        },
+        {
+          "area_code": "13103",
+          "area_name": "港区"
+        },
+        {
+          "area_code": "13104",
+          "area_name": "新宿区"
+        },
+        {
+          "area_code": "13105",
+          "area_name": "文京区"
+        },
+        {
+          "area_code": "13106",
+          "area_name": "台東区"
+        },
+        {
+          "area_code": "13107",
+          "area_name": "墨田区"
+        },
+        {
+          "area_code": "13108",
+          "area_name": "江東区"
+        },
+        {
+          "area_code": "13109",
+          "area_name": "品川区"
+        },
+        {
+          "area_code": "13110",
+          "area_name": "目黒区"
+        },
+        {
+          "area_code": "13111",
+          "area_name": "大田区"
+        },
+        {
+          "area_code": "13112",
+          "area_name": "世田谷区"
+        },
+        {
+          "area_code": "13114",
+          "area_name": "中野区"
+        },
+        {
+          "area_code": "13115",
+          "area_name": "杉並区"
+        },
+        {
+          "area_code": "13116",
+          "area_name": "豊島区"
+        },
+        {
+          "area_code": "13117",
+          "area_name": "北区"
+        },
+        {
+          "area_code": "13118",
+          "area_name": "荒川区"
+        },
+        {
+          "area_code": "13119",
+          "area_name": "板橋区"
+        },
+        {
+          "area_code": "13120",
+          "area_name": "練馬区"
+        },
+        {
+          "area_code": "13121",
+          "area_name": "足立区"
+        },
+        {
+          "area_code": "13122",
+          "area_name": "葛飾区"
+        },
+        {
+          "area_code": "13123",
+          "area_name": "江戸川区"
+        },
+        {
+          "area_code": "13202",
+          "area_name": "立川市"
+        },
+        {
+          "area_code": "13203",
+          "area_name": "武蔵野市"
+        },
+        {
+          "area_code": "13204",
+          "area_name": "三鷹市"
+        },
+        {
+          "area_code": "13206",
+          "area_name": "府中市"
+        },
+        {
+          "area_code": "13207",
+          "area_name": "昭島市"
+        },
+        {
+          "area_code": "13208",
+          "area_name": "調布市"
+        },
+        {
+          "area_code": "13210",
+          "area_name": "小金井市"
+        },
+        {
+          "area_code": "13211",
+          "area_name": "小平市"
+        },
+        {
+          "area_code": "13212",
+          "area_name": "日野市"
+        },
+        {
+          "area_code": "13213",
+          "area_name": "東村山市"
+        },
+        {
+          "area_code": "13214",
+          "area_name": "国分寺市"
+        },
+        {
+          "area_code": "13215",
+          "area_name": "国立市"
+        },
+        {
+          "area_code": "13218",
+          "area_name": "福生市"
+        },
+        {
+          "area_code": "13219",
+          "area_name": "狛江市"
+        },
+        {
+          "area_code": "13220",
+          "area_name": "東大和市"
+        },
+        {
+          "area_code": "13221",
+          "area_name": "清瀬市"
+        },
+        {
+          "area_code": "13222",
+          "area_name": "東久留米市"
+        },
+        {
+          "area_code": "13223",
+          "area_name": "武蔵村山市"
+        },
+        {
+          "area_code": "13225",
+          "area_name": "稲城市"
+        },
+        {
+          "area_code": "13228",
+          "area_name": "あきる野市"
+        },
+        {
+          "area_code": "13229",
+          "area_name": "西東京市"
+        },
+        {
+          "area_code": "13303",
+          "area_name": "瑞穂町"
+        }
+      ],
+      "metrics": {
+        "elderly_share_change_pp": {
+          "mean": 0.0,
+          "period": "2020-2025",
+          "unit": "percentage_points"
+        },
+        "population_growth_pct": {
+          "mean": 1.38,
+          "period": "2020-2025",
+          "unit": "percent"
+        },
+        "single_share_change_pp": {
+          "mean": 2.45,
+          "period": "2020-2025",
+          "unit": "percentage_points"
+        }
+      }
+    }
+  ],
+  "comparison_run_id": "compare61_20261020_01",
+  "coverage": {
+    "excluded_area_codes": [
+      "13209"
+    ],
+    "excluded_reasons": [
+      {
+        "area_code": "13209",
+        "area_name": "町田市",
+        "effective_date": "2020-12-01",
+        "reason": "2020-12-01境界変更。人口だけを組み替えても世帯・年齢の比較条件は揃わないため除外。",
+        "source_url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026766/seido/1026777/1004437.html",
+        "supporting_url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk5001_64_somu_gyosei_kyokaihenko.pdf"
+      }
+    ],
+    "input_municipality_count": 62
+  },
+  "feature_definitions": [
+    {
+      "definition": "100 * (population_2025 / population_2020 - 1); five-year growth, not annual growth",
+      "metric": "population_growth_pct",
+      "period": "2020-2025",
+      "unit": "percent"
+    },
+    {
+      "definition": "single-household share in 2025 minus 2020; each share denominator is general households",
+      "metric": "single_share_change_pp",
+      "period": "2020-2025",
+      "unit": "percentage_points"
+    },
+    {
+      "definition": "65-plus share in 2025 minus 2020; each share denominator is population with known age",
+      "metric": "elderly_share_change_pp",
+      "period": "2020-2025",
+      "unit": "percentage_points"
+    }
+  ],
+  "interpretation_limits": [
+    "Exploratory grouping of observed change vectors, not future prediction or causal inference.",
+    "Cluster IDs are arbitrary labels, not rankings.",
+    "Known-age denominators exclude unknown age; compare unknown-age rates alongside elderly-share change.",
+    "Nearest means similar standardized change pattern, not geographical proximity.",
+    "Each municipality has equal weight; cluster means are not pooled population or household rates."
+  ],
+  "municipality_count": 61,
+  "period": {
+    "from": 2020,
+    "to": 2025
+  },
+  "rounding": "Cluster metric means and unknown-age context are rounded to 2 decimals. Parquet metrics retain full precision.",
+  "schema_version": "1.0",
+  "selected_k": 2
+}

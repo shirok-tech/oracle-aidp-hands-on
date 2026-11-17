@@ -1,0 +1,53 @@
+{
+  "accepted": true,
+  "boundary_policy": "exclude_documented_machida",
+  "caveat": "Population agreement is a check, not proof that every demographic definition is unchanged.",
+  "comparison_run_id": "compare61_20261020_01",
+  "comparison_sha256": "004bd87cd433d05e54a4955144e81a8ae04926f51f071379baa0d86df8dfff40",
+  "created_at": "2026-10-20T11:06:45.296307+00:00",
+  "definitions": {
+    "age_65plus_share_known_pct": "age65plus/(under15+age15to64+age65plus)*100",
+    "age_unknown_pct": "unknown/population*100; NULL preserved",
+    "population_growth_pct": "(population_2025/population_2020-1)*100; percent over five years",
+    "share_changes": "2025 share minus 2020 share; percentage points",
+    "single_households_pct": "single/general_households*100"
+  },
+  "differences": [
+    {
+      "area_code": "13209",
+      "area_name": "町田市",
+      "difference": 4,
+      "population_2020_original": 431079,
+      "population_2020_rearranged": 431083
+    }
+  ],
+  "excluded_area_codes": [
+    "13209"
+  ],
+  "excluded_reasons": [
+    {
+      "area_code": "13209",
+      "area_name": "町田市",
+      "effective_date": "2020-12-01",
+      "reason": "2020-12-01境界変更。人口だけを組み替えても世帯・年齢の比較条件は揃わないため除外。",
+      "source_url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026766/seido/1026777/1004437.html",
+      "supporting_url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk5001_64_somu_gyosei_kyokaihenko.pdf"
+    }
+  ],
+  "input_municipality_count": 62,
+  "period": "2020-2025",
+  "rows": 61,
+  "series": "original",
+  "source_run_ids": {
+    "2020": "census2020_20261020_01",
+    "2025": "census2025_20261020_01"
+  },
+  "source_sha256": {
+    "2020": "807145a0633f9e241c1754879ae34b430cd9801952992e057873304b44c2d4bb",
+    "2025": "2620e6631e16a40eee23861e579b1c7e1201b549a5846abaf42029eca71018ce"
+  },
+  "spark_version": "3.5.0-dataflow-3-5-2-12-df.1.0.103",
+  "status": "PASS",
+  "target": "/Volumes/blog_catalog/opendata/census_work/comparisons/compare61_20261020_01/curated/tokyo_changes",
+  "unknown_policy": "preserve_dash_as_null"
+}

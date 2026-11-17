@@ -1,0 +1,121 @@
+{
+  "ai_run_id": "change_ml_20261020_01",
+  "charts": [
+    "/Volumes/blog_catalog/opendata/census_work/ai_runs/change_ml_20261020_01/ml/charts/feature_changes.png",
+    "/Volumes/blog_catalog/opendata/census_work/ai_runs/change_ml_20261020_01/ml/charts/share_movements.png",
+    "/Volumes/blog_catalog/opendata/census_work/ai_runs/change_ml_20261020_01/ml/charts/k_selection.png"
+  ],
+  "comparison_run_id": "compare61_20261020_01",
+  "comparison_sha256": "004bd87cd433d05e54a4955144e81a8ae04926f51f071379baa0d86df8dfff40",
+  "coverage": {
+    "excluded_area_codes": [
+      "13209"
+    ],
+    "excluded_reasons": [
+      {
+        "area_code": "13209",
+        "area_name": "町田市",
+        "effective_date": "2020-12-01",
+        "reason": "2020-12-01境界変更。人口だけを組み替えても世帯・年齢の比較条件は揃わないため除外。",
+        "source_url": "https://www.city.sagamihara.kanagawa.jp/shisei/1026766/seido/1026777/1004437.html",
+        "supporting_url": "https://www.gikai-machida.jp/voices/GikaiDoc/attach/Gk/Gk5001_64_somu_gyosei_kyokaihenko.pdf"
+      }
+    ],
+    "input_municipality_count": 62
+  },
+  "created_at_utc": "2026-10-20T14:26:12.470808+00:00",
+  "model_parameters": {
+    "algorithm": "lloyd",
+    "candidate_seeds": [
+      42,
+      7,
+      21
+    ],
+    "cluster_centers_original_units": [
+      [
+        -6.932483537549054,
+        3.2934483003020008,
+        2.0966013265275736
+      ],
+      [
+        1.3774035585145512,
+        2.453249248420774,
+        -0.0019424956515954328
+      ]
+    ],
+    "cluster_centers_standardized": [
+      [
+        -1.25370048585954,
+        0.30930716940733166,
+        1.0772523554003979
+      ],
+      [
+        0.48438427862754957,
+        -0.11950504272556046,
+        -0.41621113731379034
+      ]
+    ],
+    "features": [
+      "population_growth_pct",
+      "single_share_change_pp",
+      "elderly_share_change_pp"
+    ],
+    "final_seed": 42,
+    "max_iter": 300,
+    "n_init": 20,
+    "scaler_mean": [
+      -0.9384666157982569,
+      2.6874030825516084,
+      0.5828975859393208
+    ],
+    "scaler_scale": [
+      4.781059742224862,
+      1.9593636284333316,
+      1.4051524074186248
+    ],
+    "selected_k": 2,
+    "selection": "Maximum mean silhouette among candidates where all seeds have minimum cluster size >=2; tie at 12 decimals chooses lower k",
+    "tol": 0.0001
+  },
+  "outputs": {
+    "assignments": {
+      "path": "/Volumes/blog_catalog/opendata/census_work/ai_runs/change_ml_20261020_01/ml/assignments",
+      "rows": 61,
+      "sha256": "49a4ea32f7f1b45a60fe323be28ff7853b786316c3757a0e23f1fd0538cb10b0"
+    },
+    "evaluations": {
+      "path": "/Volumes/blog_catalog/opendata/census_work/ai_runs/change_ml_20261020_01/ml/evaluations",
+      "rows": 15,
+      "sha256": "51d7ff7b3bb6f486e068440a6134df2c0da94af329c86808a6a0ebbd027ee5f0"
+    },
+    "input_snapshot": {
+      "path": "/Volumes/blog_catalog/opendata/census_work/ai_runs/change_ml_20261020_01/ml/input_snapshot",
+      "rows": 61,
+      "sha256": "dc788e9b128990694483bb0aa6f40164be31a6390934bea14ad958372bcf345d"
+    },
+    "k_summary": {
+      "path": "/Volumes/blog_catalog/opendata/census_work/ai_runs/change_ml_20261020_01/ml/k_summary",
+      "rows": 5,
+      "sha256": "057b18fa82878248f6ed0ba6e143f5cec858122041658d4edad594c0ec5ec17e"
+    },
+    "nearest_neighbors": {
+      "path": "/Volumes/blog_catalog/opendata/census_work/ai_runs/change_ml_20261020_01/ml/nearest_neighbors",
+      "rows": 5,
+      "sha256": "fbd10a05485d24c6c2ef969a4097067af6c29c2571f400dbb68901ed579832bb"
+    },
+    "profiles": {
+      "path": "/Volumes/blog_catalog/opendata/census_work/ai_runs/change_ml_20261020_01/ml/profiles",
+      "rows": 2,
+      "sha256": "600b7f871a07641ad41e5885edff201bbf544931ca83d32587aa54aa16babc69"
+    }
+  },
+  "python_version": "3.11.13",
+  "source_path": "/Volumes/blog_catalog/opendata/census_work/comparisons/compare61_20261020_01/curated/tokyo_changes",
+  "source_sha256": "dc788e9b128990694483bb0aa6f40164be31a6390934bea14ad958372bcf345d",
+  "versions": {
+    "numpy": "1.26.4",
+    "scikit_learn": "1.5.2",
+    "scipy": "1.13.1",
+    "spark": "3.5.0-dataflow-3-5-2-12-df.1.0.103"
+  }
+}

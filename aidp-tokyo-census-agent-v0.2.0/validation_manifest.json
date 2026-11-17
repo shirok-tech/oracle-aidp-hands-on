@@ -1,0 +1,52 @@
+{
+  "comparison_run_id": "compare61_20261020_01",
+  "ai_run_id": "change_ml_20261020_01",
+  "area_rows": 61,
+  "neighbor_rows": 305,
+  "cluster_counts": {
+    "1": 44,
+    "0": 17
+  },
+  "source_csv_file_sha256": {
+    "tokyo_changes.csv": "610d69f0687aa733aa09d3f2b747431a68964225d136c97cf634a24f3df1ba6f"
+  },
+  "similarity": "Euclidean distance on the three features using saved scaler_scale; all 60 other municipalities are candidates",
+  "note": "CSV bytes hash is a new file hash, not the row-level/Parquet hash recorded in Part 2",
+  "local_checks": {
+    "python_compile": "PASS",
+    "data_invariants": "PASS",
+    "sql_engine": "SQLite (this local validation does not execute AIDP or Spark)",
+    "five_sql_examples": "PASS",
+    "sql_result_row_counts": {
+      "01_list_areas": 61,
+      "02_get_area_metrics": 1,
+      "03_rank_population_growth": 5,
+      "04_find_similar_areas": 5,
+      "05_get_cluster_summary": 2
+    },
+    "machida_empty": "PASS",
+    "notebook_embedded_code_and_sql": "PASS",
+    "notebook_clean_outputs": "PASS",
+    "documentation_local_links": "PASS"
+  },
+  "package_version": "0.2.0",
+  "validated_at_utc": "2026-11-17T17:03:09.567810+00:00",
+  "runtime": {
+    "python": "3.12.14",
+    "sqlite": "3.53.1"
+  },
+  "aidp_validation": {
+    "source": "User-reviewed AIDP Part 3 blog v0.4 and supplied screenshots",
+    "previously_observed": [
+      "Delta tables: 61 areas and 305 neighbors",
+      "Spark SQL and five SQL tool tests",
+      "Core Playground questions, Skill activation/read and same-session follow-up"
+    ],
+    "rerun_during_package_build": false,
+    "not_verified": [
+      "Controlled Skill quality A/B test",
+      "Out-of-scope Agent answers",
+      "Deployment/API"
+    ]
+  }
+}
